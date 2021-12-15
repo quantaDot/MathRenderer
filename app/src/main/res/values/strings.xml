@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MathRenderer</string>
+    <string name="render">Render</string>
+</resources>
