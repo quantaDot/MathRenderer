@@ -14,3 +14,19 @@ If you need a new line and display your equation then do the same given below-
 	var eqn = "\[a^4+8x+9 \over 3x\]"
 ```
 You can use LaTeX for writing the equations or go to [here](http://docs.mathjax.org/en/latest/basic/mathematics.html#putting-math-in-javascript-strings)
+
+# Installation
+[![](https://jitpack.io/v/quantaDot/MathRenderer.svg)](https://jitpack.io/#quantaDot/MathRenderer)
+
+Add below lines to app's build.gradle
+
+```groovy
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+```
+```groovy
+dependencies {
+	implementation 'com.github.quantaDot:MathRenderer:1.0.2'
+}
+```
