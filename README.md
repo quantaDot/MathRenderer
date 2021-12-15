@@ -30,3 +30,7 @@ dependencies {
 	implementation 'com.github.quantaDot:MathRenderer:1.0.3'
 }
 ```
+And don't forget to add Internet permission in your app's `AndroidManifest.xml` file
+```xml
+	<uses-permission android:name="android.permission.INTERNET"/>
+```
