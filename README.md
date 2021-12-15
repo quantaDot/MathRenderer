@@ -13,4 +13,4 @@ If you need a new line and display your equation then do the same given below-
 ```kotlin
 	var eqn = "\[a^4+8x+9 \over 3x\]"
 ```
-You can use LaTeX for writing the equations or check the [documentation of MathJax](http://docs.mathjax.org/en/latest/)
+You can use LaTeX for writing the equations or go to [here](http://docs.mathjax.org/en/latest/basic/mathematics.html#putting-math-in-javascript-strings)
