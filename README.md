@@ -7,11 +7,11 @@ MathJax is an open-source JavaScript display engine for LaTeX, MathML, and Ascii
 # How to build equations
 If you use basic text string then this `MathRendererView` will work as a `TextView` but to write inline equation you need to use parentheses and backslash to escape Kotlin String Interpolation.
 ```kotlin
-	var eqn = "\(a^2+2x+6\)"
+	var eqn = "\\(a^2+2x+6\\)"
 ```
 If you need a new line and display your equation then do the same given below-
 ```kotlin
-	var eqn = "\[a^4+8x+9 \over 3x\]"
+	var eqn = "\\[a^4+8x+9 \\over 3x\\]"
 ```
 You can use LaTeX for writing the equations or go to [here](http://docs.mathjax.org/en/latest/basic/mathematics.html#putting-math-in-javascript-strings)
 
