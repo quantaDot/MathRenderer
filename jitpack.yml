@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 jdk:
+=======
+jdk:
+>>>>>>> origin/main
   - openjdk11
