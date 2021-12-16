@@ -34,3 +34,6 @@ And don't forget to add Internet permission in your app's `AndroidManifest.xml` 
 ```xml
 	<uses-permission android:name="android.permission.INTERNET"/>
 ```
+
+# Demo
+Demo of the app
